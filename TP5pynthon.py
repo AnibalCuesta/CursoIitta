@@ -22,10 +22,10 @@
 # decimales que redondee el resultado haciendo uso de la función
 # redondear() del paquete recién creado.
 
-# from redondear import redo 
-# def suma(num1,num2):
-#     resultado=num1 + num2
-#     return redo(resultado)
+from redondear import redo 
+def suma(num1,num2):
+    resultado=num1 + num2
+    return redo(resultado)
 
 # print(suma(5,10.8))
 
